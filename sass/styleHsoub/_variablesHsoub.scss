@@ -1,0 +1,59 @@
+//Font
+
+//@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face{
+    font-family: "MuseoModerno Regular";
+    src: url('fontKufi/static/MuseoModerno-Regular.ttf') format(truetype);
+}
+@font-face{
+    font-family: "MuseoModerno Regular";
+    src: url('fontKufi/static/MuseoModerno-Bold.ttf') format(truetype);
+}
+
+$fontFamily : "Be Vietnam Pro", serif;
+$fontRegular : "MuseoModerno Regular", "Open sans", "Arial";
+$fontBold : "MuseoModerno Bold", "Open sans", "Arial";
+
+//size
+$fontSize: 1.6rem;
+
+//shadow color
+$shadowColor : #ccc;
+
+//colors Font
+$colorPrimary : #616171;
+
+//color hover
+$colorLinksHover : #e43f21;
+
+//scraen size
+$x-large : 1200px;
+$large : 1024px;
+$medium : 950px;
+$small : 750px;
+$x-small : 460px;
+
+@mixin htags($factor: 1rem){
+    h1{
+        font-size: 2 * $factor;
+    }
+    h2{
+        font-size: 1.6 * $factor;
+    }
+    h3{
+        font-size: 1.2 * $factor;
+    }
+    h4{
+        font-size: 1.1 * $factor;
+    }
+    h5{
+        font-size:  $factor;
+    }
+    h5{
+        font-size: 0.9 * $factor;
+    }
+}
+
+
+
